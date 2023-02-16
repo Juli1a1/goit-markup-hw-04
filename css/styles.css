@@ -1,0 +1,455 @@
+/* webstudio */
+
+:root {
+--color-primary:#2E2F42;
+--color-brand:#404BBF;
+--color-secondary:#434455;
+--color-brand-second:#4D5AE5;
+--color-button-title:#FFFFFF;
+--color-footer-text:#E7E9FC;
+--color-logo-footer:#F4F4FD;
+--color-background-primary:#E5E5E5;
+}
+
+body {
+color: var(--color-primary);
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background-color: var(--color-button-title);
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin-top: 0;
+}
+
+ul{
+list-style-type:none ;
+margin: 0;
+padding: 0;
+}
+
+.section {
+padding-bottom: 120px;
+}
+.hero-container{
+padding-top: 188px;
+padding-bottom: 204px;
+}
+
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+.container-button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 24px;
+padding: 12px 24px;
+}
+
+
+
+.header-container {
+display: flex;
+align-items: center;
+gap: 40px;
+} 
+
+
+.header-nav {
+display: flex;
+align-items: center;
+flex-grow: 1;
+gap: 76px;
+}
+
+.header-menu {
+display: flex;
+gap: 40px;
+padding: 24px 0;
+}
+
+.header-link {
+color: var(--color-primary);
+text-decoration: none;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+font-weight: 500;
+}
+.header-link:hover {
+color: var(--color-brand);}
+
+.header-link:focus{
+color: var(--color-brand);
+}
+
+.header-adress {
+font-weight: 400;
+letter-spacing: 0.02em;
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-secondary);
+text-decoration: none;
+}
+
+.header-adress:hover {
+color: var(--color-brand);
+}
+
+.header-adress:focus{
+color: var(--color-brand);
+}
+
+.button { 
+padding: 16px 32px;
+color: var(--color-button-title);
+background: var(--color-brand-second);
+border-radius: 4px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+font-size: 16px;
+line-height: 1.5;
+font-family: 'Roboto',sans-serif;
+letter-spacing: 0.04em;
+font-weight: 500;
+}
+
+.button:hover{
+background:var(--color-brand);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.logo-first {
+color: var(--color-brand-second);
+}
+
+.logo-second {
+color: var(--color-primary);
+}
+
+.logo-secondary{
+margin-bottom: 16px;
+}
+
+.logo {   
+text-transform: uppercase;
+font-size: 18px;
+line-height: 1.33;
+font-family: 'Raleway',sans-serif;
+text-decoration: none;
+letter-spacing: 0.03em;
+font-weight: 800;
+}
+
+.logo-footer{
+color: var(--color-logo-footer);
+}
+
+.hero-title {
+margin-bottom: 48px;
+color: var(--color-button-title);
+font-size: 56px;
+line-height: 1.071;
+letter-spacing: 0.02em;
+
+}
+
+.hero-button {
+background: var(--color-primary);
+padding-bottom: 204px;
+padding-top: 188px;
+}
+
+.section1 {
+display: none;
+} 
+
+.under-title {
+padding-top: 120px;
+margin-bottom: 8px;
+font-size: 20px;
+line-height: 1.2;
+color:var(--color-primary);
+letter-spacing: 0.02em;
+font-weight: 500;
+}
+
+.about-text {
+font-size: 16px;
+line-height: 1.5;
+color: var(--color-secondary);
+letter-spacing: 0.02em;
+}
+
+.title {
+margin-bottom: 72px;
+font-size: 36px;
+line-height: 1.11;
+color:var(--color-primary);
+letter-spacing: 0.02em;
+}
+
+.colega {
+font-size:20px;
+line-height: 1.2;
+color: var(--color-primary);
+font-weight: 500;
+letter-spacing: 0.02em;
+}
+
+.card-profession1 {
+color: var(--color-secondary);
+font-size:20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.card-profession2{
+color: var(--color-secondary);
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.card-profession3{
+color: var(--color-secondary);
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.card-profession4{
+color: var(--color-secondary);
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.name-section-team {
+margin-bottom: 72px;
+color: var(--color-primary);
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+}
+
+.footer-text {
+color:var(--color-footer-text);
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.footer{
+background:var(--color-primary);
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+
+/* Portfolio */
+.container-portfolio {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+
+
+.button-portfolio {
+padding-top: 96px;
+padding-bottom: 72px;
+}
+
+.button-all {
+letter-spacing: 0.04em;
+color: var(--color-brand-second);
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-logo-footer);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+}
+
+.button-all:focus{
+color: var(--color-button-title);
+background: var(--color-brand);
+}
+
+.button-all:hover{
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+
+
+.button-website {
+letter-spacing: 0.04em;
+color: var(--color-brand-second);
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-logo-footer);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+}
+.button-website:focus {
+color: var(--color-button-title);
+background: var(--color-brand);
+}
+
+.button-website:hover {
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+
+
+.button-app {
+letter-spacing: 0.04em;
+color: var(--color-brand-second);
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-logo-footer);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+}
+
+.button-app:focus {
+color: var(--color-button-title);
+background: var(--color-brand);
+}
+
+.button-app:hover {
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.button-design {
+letter-spacing: 0.04em;
+color: var(--color-brand-second);
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-logo-footer);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+}
+
+.button-design:focus {
+color: var(--color-button-title);
+background: var(--color-brand);
+}
+
+.button-design:hover {
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+
+.button-marketing {
+letter-spacing: 0.04em;
+color: var(--color-brand-second);
+font-size: 16px;
+line-height: 1.5;
+cursor: pointer;
+background: var(--color-logo-footer);
+border: 1px solid #E7E9FC;
+border-radius: 4px;
+font-family: 'Roboto', sans-serif;
+}
+
+.button-marketing:focus {
+color: var(--color-button-title);
+background: var(--color-brand);
+}
+
+.button-marketing:hover {
+background: var(--color-brand);
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+color: var(--color-button-title);
+letter-spacing: 0.04em;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+}
+
+ .section-port {
+display: none;
+ }
+
+.title-portfolio1{
+display: none;
+}
+
+.title-portfolio{
+margin-bottom: 8px;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--color-primary);
+padding-top: 32px;
+}
+
+ .under-title-port {
+font-size: 16px;
+line-height:1.5;
+letter-spacing: 0.02em;
+color: var(--color-secondary);
+font-family: 'Roboto',sans-serif;
+padding-bottom: 152px;
+}
+
+
+.cards {
+display: flex;
+gap: 24px;
+flex-wrap: wrap;
+
+}
+
+.cards-item{
+flex-basis: calc((100%-48px)/9);
+}
