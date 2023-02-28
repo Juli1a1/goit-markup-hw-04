@@ -366,6 +366,9 @@ font-family: 'Roboto',sans-serif;
 text-decoration: none;
 }
 
+
+
+
 .future {
 display: flex;
 justify-content: center;
@@ -432,7 +435,9 @@ width: 360px;
 }
 
 .cards-item:hover{
-
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .card-content {
@@ -581,8 +586,6 @@ margin-top: 22.77px;
 .images-section{
 width: 64px;
 height: 64px;
-margin-top: 24px;
-
 }
 
 .imag-section{
@@ -596,6 +599,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background: var(--color-logo-footer);
+margin-bottom: 8px;
 }
 
 .image-section{
