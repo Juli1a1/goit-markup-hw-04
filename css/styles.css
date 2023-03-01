@@ -364,7 +364,9 @@ font-family: 'Roboto',sans-serif;
 
 .image-strength {
 text-decoration: none;
+
 }
+
 
 
 
@@ -389,6 +391,8 @@ height: auto;
 background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
 background-blend-mode: soft-light, normal;
 }
+
+
 
 .img-colega {
     width: 264px;
