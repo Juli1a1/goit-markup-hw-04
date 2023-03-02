@@ -364,9 +364,13 @@ font-family: 'Roboto',sans-serif;
 
 .image-strength {
 text-decoration: none;
-
 }
 
+.image-strength:hover{
+display: block;
+box-shadow: 0px 1px 6px rgb(46 47 66 / 8%),
+0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
+}
 
 
 
@@ -391,6 +395,8 @@ height: auto;
 background: linear-gradient(0deg, rgba(77, 90, 229, 0.1), rgba(77, 90, 229, 0.1));
 background-blend-mode: soft-light, normal;
 }
+
+
 
 
 
